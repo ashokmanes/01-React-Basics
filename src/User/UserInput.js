@@ -6,7 +6,7 @@ class UserInput extends Component {
 
 
         return (
-            <input style={{ border: '1px solid blue' }} type="text" onChange={this.props.handler} />
+            <input style={{ border: '1px solid blue' }} type="text" onChange={this.props.handler} value={this.props.userName} />
         )
     }
 
